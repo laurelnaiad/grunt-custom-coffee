@@ -33,6 +33,21 @@ that behaves as if it were.  This can be used to build with an alternate version
 build with a fork of coffee-script.  Typically, the user will specify the compiler using `compiler: require('coffee-script')` where an alternate version of coffee-script has been specified by the package as
 a direct dependency.
 
+## Example
+
+coffee: {
+    alternate_compiler: {
+    options: {
+      compiler: require('coffee-script')
+    },
+    expand: true,
+    cwd: 'src',
+    dest: 'build',
+    src: ['**/*.coffee'],
+    ext: '.js'
+  }
+}
+
 ## Release History
 
  * 2013-10-01   v0.0.1   Initial release -- equivalent to grunt-contrib-coffee v0.7.0.
