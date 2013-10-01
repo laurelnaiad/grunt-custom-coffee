@@ -1,6 +1,5 @@
 # grunt-custom-coffee
 [![Build Status](https://secure.travis-ci.org/stu-salsbury/grunt-custom-coffee.png?branch=master)](http://travis-ci.org/stu-salsbury/grunt-custom-coffee)
-[![Coverage Status](https://coveralls.io/repos/stu-salsbury/grunt-custom-coffee/badge.png)](https://coveralls.io/r/stu-salsbury/grunt-custom-coffee)
 [![Dependency Status](https://gemnasium.com/stu-salsbury/grunt-custom-coffee.png)](https://gemnasium.com/stu-salsbury/grunt-custom-coffee)
 
 > Compile CoffeeScript files to JavaScript -- **you bring the compiler!**
