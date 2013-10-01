@@ -5,6 +5,7 @@
 
 > Compile CoffeeScript files to JavaScript -- **you bring the compiler!**
 
+
 ## About
 This plugin is a copy of <a href="https://github.com/gruntjs/grunt-contrib-coffee" target="_blank">
 grunt-contrib-coffee</a> with *one difference*:
